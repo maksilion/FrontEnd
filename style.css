@@ -1,0 +1,32 @@
+body {
+    margin: 0; /* Убираем отступы */
+    height: 100%; /* Высота страницы */
+    background: url(buriyan.jpg); /* Параметры фона */
+    background-size: cover; /* Фон занимает всю доступную площадь */
+   }
+   
+h1, p, nav {text-align:center;}
+
+div.f {     width: 600px;
+			margin: auto;
+			padding: 20px;
+			border: 1px solid gray;}
+div.f:hover {border: 1px solid black;}
+
+
+ul.menu li{display:inline;
+	  	 background-color: #87CEEB;
+ 		 font-size: 1.5em;}
+	
+ul.menu li:hover {background-color:   #AFEEEE;}
+
+
+div.s {display: inline;}
+
+
+	table {border-collapse:collapse;
+			width:700px;}
+	td, th {border: 1px solid #000;}
+	#Pri {text-align: right;}
+	.b {background: #B0C4DE;}
+	.r {background: #FA8072;}
